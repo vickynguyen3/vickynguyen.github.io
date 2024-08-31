@@ -109,13 +109,14 @@ nav a.active{
     }
 }
 
-/* Home Section */
+/* Section */
 section{
     min-height: 100vh;
     padding: 5rem 9% 5rem;
 }
 
-.home{
+/* Home Section */
+#home{
     /* display: none; */
     display: flex;
     justify-content: center;
@@ -124,7 +125,7 @@ section{
     background-color: var(--bg-color);
 }
 
-.home .home-content h1{
+#home .home-content h1{
     font-size: 6rem;
     font-weight: 700;
     line-height: 1.3;
@@ -258,22 +259,22 @@ span{
 
 /* Media Queries */
 @media (max-width: 1000px){
-    .home{
+    #home{
         gap: 4rem;
     }
 }
 
 @media (max-width: 995px){
-    .home{
+    #home{
         flex-direction: column;
         margin: 5rem 4rem;
     }
     
-    .home .home-content h3{
+    #home .home-content h3{
         font-size: 2.5rem;
     }
 
-    .home .home-content h1{
+    #home .home-content h1{
         font-size: 5rem;
     }
 
@@ -283,4 +284,38 @@ span{
     }
 }
 
+/* Portfolio Section */
 
+.portfolio-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-size: 4rem;
+    font-weight: 600;
+    line-height: 1.3;
+    text-align: center;
+}
+
+#ux-design{
+    margin-top:20px;
+}
+
+#ux-design h3{
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+#stellarsky{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#stellarsky img{
+    width: 50%;
+    max-width: 500px;
+    height: auto;
+}

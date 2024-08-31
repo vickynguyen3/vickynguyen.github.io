@@ -16,4 +16,10 @@ document.addEventListener('DOMContentLoaded', () => {
         document.querySelector('#home').scrollIntoView({ behavior: 'smooth' });
     });
 
+    // Contact link click event
+    contactLink.addEventListener('click', (event) => {
+        event.preventDefault();
+        document.querySelector('#contact').scrollIntoView({ behavior: 'smooth' });
+    });
+
 });

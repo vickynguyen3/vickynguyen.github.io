@@ -12,7 +12,7 @@
     <title>Portfolio Website</title>
 
     <!-- Script -->
-    <script src="script.js"></script>
+    <script src="script.js" d></script>
 </head>
 <body>
     <header>
@@ -28,7 +28,7 @@
     </header>
 
     <!-- Home Section -->
-    <section class="home">
+    <section id="home">
         <div class="home-img">
             <img src="images/picrewV.png" alt="">
         </div>
@@ -46,18 +46,27 @@
     </section>
 
     <!-- Portfolio Section -->
-    <section class="portfolio">
+    <section id="portfolio">
         <!-- Portfolio Container -->
         <div class="portfolio-container">   
-            <h2 class="heading">My <span>Portfolio</span></h2>
+            <h1>My <span>Portfolio</span></h1>
         </div>
         <!-- UX Design -->
-        <div class="ux-design">
-            <h2 class="heading">UX Design</h2>
-            <div class="ux-imags">
-                <a href="#"><img src="images/ux-design.png" alt=""></a>
+        <div id="ux-design">
+            <h3>UX Design</h3>
+            <div id="stellarsky">
+                <a href="#"><img src="images/stellarskyIntro.png" alt=""></a>
+                <h4>Stellarsky</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.</p>
             </div>
+
         </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+
     </section>
 </body>
 </html>
